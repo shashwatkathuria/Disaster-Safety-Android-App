@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shash.earthquake4.EarthquakeEmergencyStepsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="1.Stay calm! If you're indoors, stay inside. If you're outside, stay outside.\n\n2.If you're indoors, stand against a wall near the center of the building, stand in a doorway, or crawl under heavy furniture (a desk or table). Stay away from windows and outside doors.\n\n3.If you're outdoors, stay in the open away from power lines or anything that might fall. Stay away from buildings (stuff might fall off the building or the building could fall on you).\n\n4.Don't use matches, candles, or any flame. Broken gas lines and fire don't mix.\n\n5.If you're in a car, stop the car and stay inside the car until the earthquake stops.\n\n6.Don't use elevators (they'll probably get stuck anyway).\n\n7.Call government emergency numbers like ambulance, fire brigade,etc.\n\n8.Call and inform dear ones who may be near you.\n\n9.Issue alert on the app."
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="EARTHQUAKE EMERGENCY STEPS"
+        android:textColor="#f00b0f"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/issuealertbutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="ISSUE\n ALERT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/emergencycontactsbutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="EMERGENCY\n CONTACTS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+</android.support.constraint.ConstraintLayout>

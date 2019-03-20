@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/abeezee_italic</item>
+        <item>@font/almendra_display</item>
+        <item>@font/anaheim</item>
+        <item>@font/anonymous_pro_bold</item>
+    </array>
+</resources>

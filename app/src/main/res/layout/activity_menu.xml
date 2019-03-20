@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shash.earthquake4.MenuActivity">
+
+    <TextView
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="LET US INFROM EACH OTHER IN CASE OF A CALAMITY AND MAKE THE WORLD A SAFER PLACE TO LIVE IN!!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/esteps"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:backgroundTint="?android:attr/colorEdgeEffect"
+        android:fontFamily="@font/abeezee"
+        android:text="Emergency Steps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <Button
+        android:id="@+id/calerts"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="@font/abeezee"
+        android:text="Common Alerts-\nEarthquakes\nFloods\nHurricanes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/galerts"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="@font/abeezee"
+        android:text="Govt. Issued Alerts-\nEARTHQUAKES\nFloods\nHurricanes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".99"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/econtacts"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/abeezee"
+        android:text="Emergency contacts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <Button
+        android:id="@+id/ialert"
+        android:layout_width="380dp"
+        android:layout_height="77dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:fontFamily="@font/abeezee"
+        android:shadowColor="@android:color/holo_red_light"
+        android:text="ISSUE AN ALERT"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/esensor"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:fontFamily="@font/abeezee"
+        android:text="Earthquake Mercalli Sensor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+
+
+</android.support.constraint.ConstraintLayout>

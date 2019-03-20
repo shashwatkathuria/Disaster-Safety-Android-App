@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shash.earthquake4.FloodEmergencyStepsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="1.Stay inside and away from windows, skylights, and glass doors. Find a safe area in your home (an interior room, a closet or bathroom on the lower level).\n\n2.If flooding threatens your home, turn off electricity at the main breaker.\n\n3.If you lose power, turn off major appliances such as the air conditioner and water heater to reduce damage.\n\n4.Do not use electrical appliances, including your computer.\n\n5.Do not go outside. If the eye of the storm passes over your area, there will be a short period of calm, but at the other side of the eye, the wind speed rapidly increases to hurricane force and will come from the opposite direction. Also, do not go outside to see what the wind feels like. It is too easy to be hit by flying debris.\n\n6.Beware of lightning. Stay away from electrical equipment. Don't use the phone or take a bath/shower during the storm.\n\n7.Remain indoors until an official all clear is given.\n\n8.Watch for weakened roads, bridges, tree limbs or porches that could collapse unexpectedly.\n\n9.Call and inform you dear ones who may be near you.\n\n10.Issue alert on the app."
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="HURRICANE EMERGENCY STEPS"
+        android:textColor="#f00b0f"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/issuealertbutton2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="ISSUE\n ALERT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/emergencycontactsbutton2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="EMERGENCY\n CONTACTS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+</android.support.constraint.ConstraintLayout>
